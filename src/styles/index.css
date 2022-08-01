@@ -197,26 +197,32 @@ ul {
 .hero-section {
   height: 820px;
 }
+.flex {
+  display: flex;
 
-.grid {
-  overflow: visible;
-  display: grid;
-  grid-template-columns: 53% 52%;
-  margin-top: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .hero-img {
-  max-width: 40rem;
+  max-width: 640px;
+}
+.ms-auto{
+  margin-left: auto;
+}
+.me-auto{
+  margin-right: auto;
+}
+.mt-auto{
+  margin-top: auto;
+}
+.mb-auto{
+  margin-bottom: auto;
+}
+.hero-first {
+  margin-top: 272px;
+  margin-left: 32px;
 }
 
-.grid-first {
-  margin-top: 17rem;
-  margin-left: 2rem;
-}
-
-.grid-second {
+.hero-second {
   margin-top: 110px;
 }
 
@@ -263,70 +269,45 @@ ul {
   margin-bottom: 4rem;
 }
 
-.grid-body {
-  overflow: visible;
-  display: grid;
-  grid-template-columns: 40% 60%;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.grid-box {
-  margin: 0rem 2rem 0rem 0rem;
+.event {
   padding: 1rem;
   border-radius: 0.4rem;
   background-color: var(--primary-white);
   color: var(--primary-black);
   box-shadow: 0px 5px 20px rgb(1 41 112 / 12%);
+  padding: 50px;
 }
 
-.grid-box-heading {
+.events-heading {
   color: var(--primary-blue);
   font-weight: 700;
   font-size: 1.1rem;
 }
 
-.grid-box-subheading {
+.events-subheading {
   color: var(--primary-blue);
   font-weight: 600;
   font-size: 0.9rem;
 }
 
 .event-img {
-  max-width: 25rem;
-}
-
-.grid-body-first {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.grid-body-second {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 400px;
 }
 
 /* Downloads Styles */
 .downloads {
   background-color: var(--secondary-white);
-  margin-bottom: 4rem;
+  margin: 64px;
+  margin-top: 128px;
+  margin-bottom: 200px;
 }
 
-.downloads-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.heading {
   color: var(--primary-blue);
   font-size: 1.3rem;
   font-weight: 600;
 }
-.downloads-subheading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.subheading {
   color: var(--secondary-blue);
   font-size: 0.85rem;
   font-weight: 600;
@@ -353,13 +334,6 @@ ul {
   padding: 0rem 1rem 0rem 0rem;
 }
 
-.grid-downloads {
-  overflow: visible;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  margin-left: 1.5rem;
-}
-
 .downloads-body-heading {
   color: var(--primary-blue);
   font-size: 1.1rem;
@@ -382,32 +356,24 @@ ul {
 
 .career {
   background-color: var(--secondary-white);
-  margin-top: 5rem;
+  margin: 64px;
 }
 
-.grid-career {
-  overflow: visible;
-  display: grid;
-  grid-template-columns: 60% 40%;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.grid-career-first {
+.career-first {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-.grid-career-second {
+.career-second {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-.grid-career-box {
+.career-box {
   margin: 0rem 0rem 0rem 2rem;
   padding: 1rem;
   border-radius: 0.4rem;
@@ -423,30 +389,7 @@ ul {
 /* About Styles */
 
 .about {
-  margin-top: 1.5rem;
-}
-
-.grid-about {
-  overflow: visible;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  margin-left: 3rem;
-  margin-right: 0rem;
-}
-
-.grid-about-first {
-  margin-right: 1rem;
-  margin-bottom: 2rem;
-}
-
-.grid-about-second {
-  margin-right: 1rem;
-  margin-bottom: 2rem;
-}
-
-.grid-about-third {
-  margin-right: 1rem;
-  margin-bottom: 2rem;
+  margin: 64px;
 }
 
 .about-image-wrapper {
@@ -474,34 +417,19 @@ ul {
 /* Contact Styles */
 
 .contact {
-  margin-top: 3rem;
+  margin-top: 128px;
 }
 
-.grid-contact {
-  overflow: visible;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-left: 1rem;
-  margin-right: 1rem;
+.contact-first {
+  margin-bottom: 65px;
 }
 
-.grid-contact-first {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 2rem;
-  margin-bottom: 5rem;
+.contact-second {
+  margin-right: 64px;
+  margin-bottom: 96px;
 }
 
-.grid-contact-second {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 2rem;
-  margin-bottom: 5rem;
-}
-
-.grid-contact-box {
+.contact-box {
   margin: 0rem 0rem 0rem 2rem;
   padding: 1rem;
   border-radius: 0.4rem;
